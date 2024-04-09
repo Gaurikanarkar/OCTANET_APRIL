@@ -1,0 +1,320 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   background-color: rgb(255, 252, 252);
+ }
+header{
+    width: 100%;
+    height: 100vh;  
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    width: 100%;
+    height:100px;
+    background-color: rgb(25, 73, 92);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a:hover{
+border-bottom: 2px solid rgb(201, 207, 16);
+
+}
+.menu a{
+          text-decoration: none;
+           color: white;
+           padding: 10px 20px;
+           font-size: 25px;
+       }
+.register .btn1{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size: 20px;
+    background-color: rgb(200, 218, 65);
+    border-radius: 7px;
+    
+}
+.register .btn1:hover{
+    background-color: rgb(223, 156, 24);
+}
+
+.h-text span{
+    letter-spacing: 5px;
+    font-size: larger;
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text {
+    
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+   text-align: left;
+    color: rgb(3, 24, 12)
+    ;
+}
+.picture{
+    display: flex;
+}
+.picture .img1 {
+    position:absolute;
+    right: 50px;
+    border-radius:20%;
+   margin-top: 40px;
+   margin-right: 40px;
+   height:500px;
+   width: 700px;
+}
+.img2{
+    position:absolute;
+    right: 20px;
+    border-radius:25%;
+   margin-top: 290px;
+   margin-right: 500px;
+   height:230px;
+   width: 300px;
+
+}
+.img3{
+    position:absolute;
+    right: 20px;
+    border-radius:25%;
+   margin-top: 60px;
+   margin-right: 500px;
+   height:210px;
+   width: 290px;
+}
+
+.text{
+    margin: 30px;
+    padding: 30px;
+    width: 60px;
+    background-color:rgb(23, 82, 121) ;
+    width:600px;
+    height: 390px;
+    border-radius: 10px;
+}
+ .emp{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 80px;
+}
+.text h1{
+    color: rgb(240, 241, 241);
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+}
+
+.text h1:hover{
+    color: rgb(0, 0, 0);
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: rgb(214, 202, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+} 
+@keyframes fontAnimation{
+    from{ font-size:  20px;
+          color: yellow;
+    }
+    to{ font-size: 30px;
+        color: rgb(239, 237, 243);
+    }
+}
+/* Features page Styling */
+.page2{
+    background-color:rgb(23, 82, 121);
+    height: 500px;
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    display:flex;
+    
+}
+.page2 .box{
+    height:300px;
+    width: 290px;
+    color: rgb(50, 73, 38);
+    background-color: rgb(150, 157, 203);
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 10%;
+    justify-content: space-evenly;
+   box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+/* .page2 h2{
+    text-align:center;
+    text-shadow: #000000;
+    color: black;
+} */
+.box h3{
+    text-align:center;
+    text-shadow: #000000;
+    color: black;
+}
+.page2 .box .pic-3{
+    position:absolute;
+    border-radius:15%;
+   margin-top: 2px;
+   margin-left: 15px;
+   margin-right:20px;
+   height:200px;
+   width: 180px;
+ }
+ .page2 .box .pic-4{
+    position:absolute;
+    border-radius:15%;
+   margin-top: 2px;
+   margin-left: 15px;
+   margin-right:20px;
+   height:200px;
+   width: 180px;
+ }
+ .page2 .box .pic-5{
+    position:absolute;
+    border-radius:15%;
+   margin-top: 1px;
+   margin-left: 15px;
+   height:200px;
+   width: 175px;
+ }
+ .page2 .box .pic-6{
+    position:absolute;
+    border-radius:15%;
+   margin-top: 2px;
+   margin-left: 15px;
+   margin-right:20px;
+   height:200px;
+   width: 180px;
+ }
+
+ .text-name{
+ color: rgb(36, 36, 27);
+ font-size: 50px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+ margin-left: 80px;
+ margin-top: 80px;
+}
+/* page3 section*/
+.page3{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(160, 167, 214);
+    height: 550px;
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.page3 .staff-section{
+    height:400px;
+    width: 300px;
+    color: rgb(50, 73, 38);
+    background-color:whitesmoke;
+    margin-top: 100px;
+    margin-left: 20px;
+   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.484);
+   line-height: 1.2;
+   border-radius: 15px;
+    
+}
+.page3 .staff-section .emp-img1{
+ border-radius:15%;
+   margin-top: 15px;
+   margin-left: 45px;
+   height:200px;
+   width: 200px;
+   border-radius: 50%;
+   border: solid 3px rgb(72, 0, 255);
+   
+   
+ }
+.staff-section h2{
+    color: rgb(37, 13, 125);
+    text-align: center;
+    margin-bottom: 0px;
+ }
+ .page3 .staff-section h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.page3 .staff-section p{
+    color: rgb(0, 0, 0 );
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 69px;
+    
+}
+.cards1{
+    display: flex;
+    justify-content: center;
+    width: 950px;
+}
+.heading{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+   
+}
+.heading h2{
+    font-size: 30px;
+    color: rgb(207, 251, 236);
+}
+.qut p{
+    color: rgb(247, 255, 1);
+}
+.heading-2{
+    color: black;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 30px;
+    
+}
+footer{
+    background-color: rgb(25, 73, 92);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+.contact{
+    color: white;
+    padding: 5px 5px;
+  }
+
+.a{
+    text-decoration: none;
+    color: white;
+  }
